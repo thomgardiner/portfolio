@@ -16,31 +16,38 @@
 }
 
 #javascript:hover{
-    font-weight: bold;
+    font-weight: bolder;
+    color: #4a82db;
 }
 
 #node:hover{
-    font-weight: bold;
+    font-weight: bolder;
+    color: #4a82db;
 }
 
 #react:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #mongo:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #mysql:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #html:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #css:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 .icons-social{

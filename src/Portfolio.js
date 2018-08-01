@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './App.css';
 import './About.css';
 
-class About extends Component {
+class Portfolio extends Component {
 
     render(){
         return(

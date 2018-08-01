@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-import About from './About.js'
+import About from './About.js';
+import Portfolio from './Portfolio.js';
 
 let skillStyle = {
   fontWeight: "bold",
@@ -13,8 +14,20 @@ let skills = {
 
 class App extends Component {
 
-  state = {
-    currentView: "about"
+  constructor(props) {
+    super(props);
+    this.state = {
+        currentView: "about",
+    };
+
+}
+
+  handleClickAbout(){
+    this.setState({currentView: "about"});
+  }
+
+  handleClickPortfolio(){
+    this.setState({currentView: "portfolio"});
   }
 
 
@@ -23,15 +36,15 @@ class App extends Component {
       <Fragment>
       <div class="row">
         <div class="nav">
-          <div id="about">About</div>
+          <div id="about" onClick={() => this.handleClickAbout()}>About</div>
           <div id="divide"> | </div>
-          <div id="projects">Projects</div>
+          <div id="projects" onClick={() => this.handleClickPortfolio()}>Projects</div>
         </div>
       </div>
       <div class="spaceStyle">
       <div class="row">
         <div class="col-md-12 main-container">
-        <About />
+        {this.state.currentView == 'about' ? <About /> : <Portfolio />}
         </div>
       </div>
       </div>
