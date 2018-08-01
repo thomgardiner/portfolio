@@ -14,7 +14,7 @@ let skills = {
 class App extends Component {
 
   state = {
-    selected: "about"
+    currentView: "about"
   }
 
 

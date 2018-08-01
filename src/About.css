@@ -1,0 +1,94 @@
+#fullstack:hover{
+    font-weight: bold;
+    
+}
+
+#designer:hover{
+    font-weight: bold;
+}
+
+#musician:hover{
+    font-weight: bold;
+}
+
+#human:hover{
+    font-weight: bold;
+}
+
+#javascript:hover{
+    font-weight: bold;
+}
+
+#node:hover{
+    font-weight: bold;
+}
+
+#react:hover{
+    font-weight: bold;
+}
+
+#mongo:hover{
+    font-weight: bold;
+}
+
+#mysql:hover{
+    font-weight: bold;
+}
+
+#html:hover{
+    font-weight: bold;
+}
+
+#css:hover{
+    font-weight: bold;
+}
+
+.icons-social{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.fa-linkedin {
+    color: white;
+    font-size: 75px;
+    margin-left: 15px;
+}
+
+.fa-linkedin:hover {
+    color: #4a82db;
+}
+
+.fa-github {
+    color: white;
+    font-size: 75px;
+    margin-left: 15px;
+}
+
+.fa-github:hover {
+    color: #4a82db;
+}
+
+.fa-stack-overflow {
+    color: white;
+    font-size: 75px;
+    margin-left: 15px;
+}
+
+.fa-stack-overflow:hover {
+    color: #4a82db;
+}
+
+.fa-envelope {
+    color: white;
+    font-size: 75px;
+    margin-left: 15px;
+}
+
+.fa-envelope:hover {
+    color: #4a82db;
+}
+
+#thomas:hover{
+    color: #4a82db;
+}
