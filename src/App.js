@@ -1,22 +1,39 @@
 import React, { Component, Fragment } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+let spaceStyle = {
+  backgroundImage: "url",
+  // backgroundColor: 'green'
+}
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-      <div class="col-md-12 main-container">
-        <div class="row">
-          <div class="intro">Hello, I'm Thomas!</div>
+      <div class="row">
+        <div class="nav">
+          <div id="about">About</div>
+          <div id="projects">Projects</div>
         </div>
-        <div class="row">
-		      <div class="tagline">Full Stack Developer | Designer | Musician | Human Being</div>
-        </div>
-        <div class="row">
-          <div class="icons-social">
+      </div>
+      <div class="spaceStyle">
+      <div class="row">
+        <div class="col-md-12 main-container">
+          <div class="row">
+            <div class="intro">Hello, I'm Thomas.</div>
+          </div>
+          <div class="row">
+            <div class="tagline"> Full Stack Developer | Designer | Musician | Human </div>
+          </div>
+          <div class="row">
+            <div class="icons-social">
+            </div>
+          </div>
+          <div class="row">
+            <div class="about"> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>
           </div>
         </div>
+      </div>
       </div>
       </Fragment>
   )}

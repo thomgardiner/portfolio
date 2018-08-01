@@ -3,18 +3,60 @@
   width: 400px;
   font-family: 'Reem Kufi', sans-serif;
 	font-size: 52px;
-	font-weight: 600;
+  font-weight: 600;
+  color: white;
 
 }
 
 .tagline{
   margin: auto;
-  width: 500px;
+  margin-top: 5px;
+  width: 575px;
+  font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.about{
+  margin: auto;
+  margin-top: 50px;
+  width: 750px;
   font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	font-weight: 100;
+  font-weight: 500;
+  color: white;
 }
 
 .main-container{
-  margin-top: 20%;
+  margin-top: 15%;
 }
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#about{
+  float: left;
+  width: 70px;
+  margin-right: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 0px;
+  color: white;
+}
+
+#projects{
+  width: 120px;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+/* .spaceStyle{
+  background-image: url("space.jpg");
+  height: 800px;
+} */
