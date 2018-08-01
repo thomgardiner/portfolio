@@ -1,9 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
 
-let spaceStyle = {
-  backgroundImage: "url",
+let skillStyle = {
+  fontWeight: "bold",
   // backgroundColor: 'green'
+}
+
+let skills = {
+
 }
 
 class App extends Component {
@@ -13,6 +17,7 @@ class App extends Component {
       <div class="row">
         <div class="nav">
           <div id="about">About</div>
+          <div id="divide"> | </div>
           <div id="projects">Projects</div>
         </div>
       </div>
@@ -30,7 +35,11 @@ class App extends Component {
             </div>
           </div>
           <div class="row">
-            <div class="about"> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>
+            <div class="about"> My name is Thomas Gardiner. I'm a Full Stack Developer with a background and eye for art and design. I like to build cool stuff, and also things too.</div>
+            <div class="row">
+            <div class="about-skills"><span style={skillStyle}> Skills and Languages:</span> <p style={skills}> Javascript | Node.js | React.js | MongoDB | MySQL | HTML5 | CSS3 </p> </div>
+            <div class="about-skills"><span style={skillStyle}> Software:</span> <p style={skills}> 3DS Max, Maya, After Effects, Photoshop, Office, Jira </p> </div>
+            </div>
           </div>
         </div>
       </div>
