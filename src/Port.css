@@ -60,4 +60,12 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .project-github{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
   }

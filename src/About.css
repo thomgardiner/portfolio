@@ -53,6 +53,26 @@
     color: #6ba6ff;
 }
 
+#restful:hover{
+    /* font-weight: bold; */
+    color: #6ba6ff;
+}
+
+#response:hover{
+    /* font-weight: bold; */
+    color: #6ba6ff;
+}
+
+#threed:hover{
+    /* font-weight: bold; */
+    color: #6ba6ff;
+}
+
+#mogo:hover{
+    /* font-weight: bold; */
+    color: #6ba6ff;
+}
+
 #build{
     color: #6ba6ff;
     cursor: pointer;
