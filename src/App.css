@@ -21,7 +21,17 @@
 .about{
   margin: auto;
   margin-top: 50px;
-  width: 750px;
+  width: 800px;
+  font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.icons-social{
+  margin: auto;
+  margin-top: 50px;
+  width: 800px;
   font-family: 'Roboto', sans-serif;
 	font-size: 20px;
   font-weight: 500;
@@ -31,7 +41,7 @@
 .about-skills{
   margin: auto;
   margin-top: 15px;
-  width: 750px;
+  width: 800px;
   font-family: 'Roboto', sans-serif;
 	font-size: 20px;
   font-weight: 500;
@@ -41,7 +51,7 @@
 
 
 .main-container{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .nav{
