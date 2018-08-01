@@ -1,18 +1,21 @@
 #fullstack:hover{
     font-weight: bold;
-    
+    color: #4a82db;
 }
 
 #designer:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #musician:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #human:hover{
     font-weight: bold;
+    color: #4a82db;
 }
 
 #javascript:hover{
@@ -48,6 +51,16 @@
 #css:hover{
     font-weight: bold;
     color: #4a82db;
+}
+
+#build{
+    color: #4a82db;
+    cursor: pointer;
+}
+
+#build:hover{
+    color: #6ba6ff;
+    font-weight: bold;
 }
 
 .icons-social{
@@ -96,6 +109,21 @@
     color: #4a82db;
 }
 
-#thomas:hover{
+#thomas{
     color: #4a82db;
+}
+
+#thomas:hover{
+    color: #6ba6ff;
+    font-weight: bold;
+}
+
+#thomasg{
+    color: #4a82db;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#thomasg:hover{
+    color: #6ba6ff;
 }
