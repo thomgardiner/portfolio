@@ -31,7 +31,7 @@ class About extends Component {
             </div>
           </div>
           <div class="row">
-            <div class="about"> My name is <span id="thomasg"> Thomas Gardiner</span>. I'm a Full Stack Developer with a background in, and eye for, art and design. I like to <span id="build" >build cool stuff</span>, and also cool things too. I make music in my free time and love to travel. Let's build something cool, together! I have experience in: </div>
+            <div class="about"> My name is <span id="thomasg"> Thomas Gardiner</span>. I'm a Full Stack Developer with a background in, and eye for, art and design. I like to <span id="build" >build stuff</span> and learn new things. I make music in my free time and love to travel. Let's build something cool, together! I have experience in: </div>
             <div class="row">
             <div class="about-skills"><span style={skillStyle}> Skills and Languages:</span> <p style={skills}> <span id="javascript"> Javascript </span> | <span id="node">Node </span> | <span id="react"> React </span> |<span id="mongo"> MongoDB </span> | <span id="mysql"> MySQL </span> | <span id="html"> HTML </span> | <span id="css"> CSS </span> | Responsive Design | 3D Modeling | Motion Graphics </p> </div>
             <div class="about-skills"><span style={skillStyle}> Software:</span> <p style={skills}> 3DS Max, Maya, After Effects, Photoshop, Office, Jira </p> </div>

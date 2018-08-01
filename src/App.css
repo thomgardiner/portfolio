@@ -69,6 +69,11 @@
   cursor: pointer;
 }
 
+#about:hover{
+  color: #6ba6ff;
+  /* font-weight: bold; */
+}
+
 #divide{
   width: 5px;
   margin-right: 15px;
@@ -85,6 +90,11 @@
   font-size: 25px;
   color: white;
   cursor: pointer;
+}
+
+#projects:hover{
+  color: #6ba6ff;
+  /* font-weight: bold; */
 }
 
 /* .spaceStyle{

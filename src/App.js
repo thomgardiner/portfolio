@@ -38,13 +38,14 @@ class App extends Component {
         <div class="nav">
           <div id="about" onClick={() => this.handleClickAbout()}>About</div>
           <div id="divide"> | </div>
-          <div id="projects" onClick={() => this.handleClickPortfolio()}>Projects</div>
+          <div id="projects" onClick={() => this.handleClickPortfolio()}>Portfolio</div>
         </div>
       </div>
       <div class="spaceStyle">
       <div class="row">
         <div class="col-md-12 main-container">
         {this.state.currentView == 'about' ? <About /> : <Portfolio />}
+        {/* <Portfolio /> */}
         </div>
       </div>
       </div>
