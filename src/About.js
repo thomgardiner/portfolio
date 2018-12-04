@@ -26,10 +26,6 @@ class About extends Component {
           </div>
           </div>
           <div class="row" id="about-container">
-          <div id="link-container">           
-            <div class="about"> <a class="link" target="_blank" href="https://github.com/thomgardiner">Github</a> <a class="link" target="_blank" href="https://www.linkedin.com/in/thomas-gardiner-a824699">LinkedIn</a><a class="link" target="_blank" href="mailto:thomgardiner@gmail.com">Email</a></div>
-          </div>
-
             <div class="about"> My name is <span id="thomasg"> Thomas Gardiner</span>. I'm a Full Stack Developer with a background in design and animation. I like to <span id="build" onClick={() => this.props.clickFunction()} >build stuff</span> and learn new things. I have over two years of self taught experience and I recently completed a bootcamp through the University of Denver. Before that, I worked at Microsoft on the Bing Maps 3D App as a contract 3D Artist. I make and play music in my freetime, and travel as much as I can. I'm most comfortable in the MERN stack (MongoDB, Express, React, Node.js), but I have an aptitude for picking up new technologies, frameworks and languages. Let's build something cool! </div>
 
             <div id="about-skills-container">

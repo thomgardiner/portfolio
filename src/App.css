@@ -11,7 +11,8 @@
 .tagline{
   margin: auto;
   margin-top: 5px;
-  width: 575px;
+  text-align: center;
+  width: 65%;
   font-family: 'Roboto', sans-serif;
 	font-size: 25px;
   font-weight: 500;
@@ -21,7 +22,7 @@
 .about{
   margin: auto;
   margin-top: 20px;
-  width: 800px;
+  width: 95%;
   font-family: 'Roboto', sans-serif;
 	font-size: 19px;
   font-weight: 500;
@@ -41,11 +42,13 @@
 .about-skills{
   margin: auto;
   margin-top: 15px;
-  width: 800px;
+  width: 55%;
   font-family: 'Roboto', sans-serif;
 	font-size: 22px;
   color: white;
 }
+
+
 
 .main-container{
   margin-top: 3%;
@@ -55,6 +58,7 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
+  height: 40px;
 }
 
 #navbar-container{
@@ -131,8 +135,19 @@ box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
   width:100%;
   display:block;
   margin:auto;
+  margin-bottom: 10px;
 }
 
 #intro-container{
   margin-top: 10%
+}
+
+#about-container{
+  background-color: #172A3A;
+  text-align:center;
+  width:70%;
+  min-width: 500px;
+  border-radius: 15px;
+  display:block;
+  margin:auto;
 }

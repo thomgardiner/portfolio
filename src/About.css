@@ -1,20 +1,36 @@
 #fullstack:hover{
-    /* font-weight: bold; */
+    font-weight: bold;
     color: #6ba6ff;
+}
+
+#fullstack{
+    font-weight: bold;
 }
 
 #designer:hover{
-    /* font-weight: bold; */
+    font-weight: bold;
     color: #6ba6ff;
 }
 
+#designer{
+    font-weight: bold;
+}
+
+#musician{
+    font-weight: bold;
+}
+
+#human{
+    font-weight: bold;
+}
+
 #musician:hover{
-    /* font-weight: bold; */
+    font-weight: bold;
     color: #6ba6ff;
 }
 
 #human:hover{
-    /* font-weight: bold; */
+    font-weight: bold;
     color: #6ba6ff;
 }
 
