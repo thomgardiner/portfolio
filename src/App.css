@@ -31,7 +31,7 @@
 .icons-social{
   margin: auto;
   margin-top: 50px;
-  width: 800px;
+  width: 300px;
   font-family: 'Roboto', sans-serif;
 	font-size: 20px;
   font-weight: 500;
@@ -104,6 +104,7 @@
   font-size: 25px;
   color: white;
   cursor: pointer;
+  
 }
 
 #projects:hover{
@@ -117,9 +118,12 @@
 } */
 
 #image{
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
+  -webkit-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
+-moz-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
+box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
 }
 
 #image-container{

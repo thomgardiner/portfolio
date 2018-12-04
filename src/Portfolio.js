@@ -9,7 +9,7 @@ class Portfolio extends Component {
         return(
         <Fragment>
             <div class="row">
-            <div class="project-intro">Here are some things I've built. Check my github for more!</div>
+            <div class="project-intro">Here are some things I've built. Check my <a id="build" target="_blank" href="https://github.com/thomgardiner">github</a> for more!</div>
             </div>
             <div class="row">
                 <div class="port-container">

@@ -3,6 +3,7 @@ import './App.css';
 import About from './About.js';
 import Portfolio from './Portfolio.js';
 import Home from './Home.js';
+import SnowStorm from 'react-snowstorm';
 
 let skillStyle = {
   fontWeight: "bold",
@@ -42,6 +43,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
+
       <div class="row" id="navbar-container">
         <div class="nav">
           <div id="thomas-nav" onClick={() => this.handleClickHome()}>Home</div>
@@ -64,6 +66,7 @@ class App extends Component {
         </div>
       </div>
       </div>
+      <SnowStorm />
       </Fragment>
   )}
 }
