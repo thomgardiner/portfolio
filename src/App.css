@@ -57,6 +57,20 @@
   margin-right: 50px;
 }
 
+#navbar-container{
+  background-color:#172A3A;
+}
+
+#thomas-nav{
+  float: left;
+  width: 75px;
+  margin-right: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 0px;
+  color: white;
+  cursor: pointer;
+}
 
 #about{
   float: left;
@@ -101,3 +115,20 @@
   background-image: url("space.jpg");
   height: 800px;
 } */
+
+#image{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+#image-container{
+  text-align:center;
+  width:100%;
+  display:block;
+  margin:auto;
+}
+
+#intro-container{
+  margin-top: 10%
+}
