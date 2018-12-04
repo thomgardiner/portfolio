@@ -66,7 +66,7 @@ class App extends Component {
         </div>
       </div>
       </div>
-      <SnowStorm useMeltEffect={false} />
+      <SnowStorm useMeltEffect={false} usePositionFixed={true} followMouse={false} flakesMaxActive={32}/>
       </Fragment>
   )}
 }
