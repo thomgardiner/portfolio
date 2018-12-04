@@ -29,6 +29,14 @@ class Portfolio extends Component {
                         <p class="project-madewith-info">JS, JQuery, MongoDB, Node.js</p>
                         <p class="project-github"><a target="_blank" href="https://github.com/thomgardiner/benkyou">Github Repo</a></p>
                     </div>
+                    {/* <div class="port-item" id="3">
+                        <p class="project-title" id="filter-app"> Filter App </p>
+                        <a target="_blank" href="https://thomgardiner.github.io/filter-app/"><img class="port-img" src='./animeeyes.png'></img></a>
+                        <p class="project-about">Automatically places funny props on user submitted images!</p>
+                        <p class="project-madewith"><span class="made-with">Made with:</span></p>
+                        <p class="project-madewith-info">JS, JQuery, Node.js, Kairos API</p>
+                        <p class="project-github"><a target="_blank" href="https://github.com/thomgardiner/filter-app">Github Repo</a></p>
+                    </div> */}
                     <div class="port-item" id="3">
                         <p class="project-title" id="filter-app"> Filter App </p>
                         <a target="_blank" href="https://thomgardiner.github.io/filter-app/"><img class="port-img" src='./animeeyes.png'></img></a>
