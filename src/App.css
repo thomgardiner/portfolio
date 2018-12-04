@@ -62,10 +62,15 @@
   justify-content: flex-end;
   margin-right: 50px;
   height: 40px;
+  text-shadow: 2px 2px 2px #514A4A;
+  font-weight: 600;
+  font-family: 'Reem Kufi', sans-serif;
+
 }
 
 #navbar-container{
-  background-color:#172A3A;
+  /* background-color:#172A3A; */
+
 }
 
 #thomas-nav{
@@ -130,7 +135,7 @@
   border-radius: 50%;
   -webkit-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
 -moz-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
+box-shadow: 4px 4px 23px 0px rgb(0, 0, 0);
 }
 
 #image-container{
@@ -153,4 +158,8 @@ box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
   border-radius: 15px;
   display:block;
   margin:auto;
+
+  -webkit-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
+  -moz-box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
+  box-shadow: 4px 4px 23px 0px rgb(0, 0, 0);
 }
