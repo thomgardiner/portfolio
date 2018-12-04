@@ -6440,12 +6440,6 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-starfield-react@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/starfield-react/-/starfield-react-1.0.1.tgz#b71cd84b042755cffbc9954ce8d53bbdd8cd598a"
-  dependencies:
-    lodash.debounce "^4.0.8"
-
 static-extend@^0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
