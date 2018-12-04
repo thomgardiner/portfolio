@@ -66,7 +66,7 @@ class App extends Component {
         </div>
       </div>
       </div>
-      <SnowStorm />
+      <SnowStorm useMeltEffect={false} />
       </Fragment>
   )}
 }

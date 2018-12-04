@@ -87,6 +87,27 @@
     /* font-weight: bold; */
 }
 
+.link{
+    color: #6ba6ff;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.link:hover{
+    color: #6ba6ff;
+    width:100px;
+    /* font-weight: bold; */
+}
+
+#link-container{
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+
 .icons-social{
     width: 400px;
     margin: auto;

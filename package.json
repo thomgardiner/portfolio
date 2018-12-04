@@ -8,7 +8,8 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
-    "react-snowstorm": "^0.0.2"
+    "react-snowstorm": "^0.0.2",
+    "react-transition-group": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
