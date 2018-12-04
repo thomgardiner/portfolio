@@ -44,13 +44,6 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <StarfieldAnimation
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%'
-        }}
-      />
       <div class="row" id="navbar-container">
         <div class="nav">
           <div id="thomas-nav" onClick={() => this.handleClickHome()}>Home</div>
@@ -60,6 +53,13 @@ class App extends Component {
           <div id="projects" onClick={() => this.handleClickPortfolio()}>Portfolio</div>
         </div>
       </div>
+              <StarfieldAnimation
+        style={{
+          position: 'absolute',
+          width: '95%',
+          height: '95%'
+        }}
+      />
       <div class="spaceStyle">
       <div class="row">
         <div class="col-md-12 main-container">
