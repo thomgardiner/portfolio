@@ -42,6 +42,6 @@ class Home extends Component {
 
 }
 
-//test 
+//test
 
 export default Home;

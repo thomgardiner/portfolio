@@ -52,16 +52,18 @@ class App extends Component {
           <div id="divide"> | </div>
           <div id="projects" onClick={() => this.handleClickPortfolio()}>Portfolio</div>
         </div>
+      
       </div>
-              <StarfieldAnimation
+            <StarfieldAnimation
         style={{
-          position: 'absolute',
-          width: '95%',
-          height: '95%'
+          position: 'fixed',
+          width: '100%',
+          height: '100%',
         }}
       />
       <div class="spaceStyle">
       <div class="row">
+
         <div class="col-md-12 main-container">
         {this.state.currentView == 'home' ? <Home /> : null }
         {this.state.currentView == 'about' ? <About clickFunction={()=> this.handleClickPortfolio()} /> : null}
@@ -73,9 +75,10 @@ class App extends Component {
         </div>
       </div>
       </div>
-
+      
       {/* <SnowStorm useMeltEffect={false} usePositionFixed={true} followMouse={false} flakesMaxActive={32}/> */}
       </Fragment>
+      
   )}
 }
 

@@ -1,6 +1,8 @@
 .intro{
   margin: auto;
-  width: 400px;
+  -moz-width: 415px;
+  width: 420px;
+  text-align: center;
   font-family: 'Reem Kufi', sans-serif;
 	font-size: 52px;
   font-weight: 600;
