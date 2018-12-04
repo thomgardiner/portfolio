@@ -1,37 +1,45 @@
 #fullstack:hover{
     font-weight: bold;
+    text-shadow: 2px 2px 2px #514A4A;
     color: #6ba6ff;
 }
 
 #fullstack{
     font-weight: bold;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 #designer:hover{
     font-weight: bold;
     color: #6ba6ff;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 #designer{
     font-weight: bold;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 #musician{
     font-weight: bold;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 #human{
     font-weight: bold;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 #musician:hover{
     font-weight: bold;
     color: #6ba6ff;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 #human:hover{
     font-weight: bold;
     color: #6ba6ff;
+    text-shadow: 2px 2px 2px #514A4A;
 }
 
 .skill:hover{
