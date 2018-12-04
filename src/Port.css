@@ -12,6 +12,10 @@
     box-shadow: 4px 4px 23px 0px rgba(28,28,28,1);
 }
 
+.port-item:hover{
+  background-color: #6BA6FF;
+}
+
 .port-container{
     width: 1000px;
     margin: auto;
