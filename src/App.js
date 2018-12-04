@@ -4,6 +4,7 @@ import About from './About.js';
 import Portfolio from './Portfolio.js';
 import Home from './Home.js';
 import SnowStorm from 'react-snowstorm';
+import StarfieldAnimation from 'react-starfield-animation';
 
 let skillStyle = {
   fontWeight: "bold",
@@ -43,7 +44,13 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-
+        <StarfieldAnimation
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%'
+        }}
+      />
       <div class="row" id="navbar-container">
         <div class="nav">
           <div id="thomas-nav" onClick={() => this.handleClickHome()}>Home</div>
@@ -66,7 +73,8 @@ class App extends Component {
         </div>
       </div>
       </div>
-      <SnowStorm useMeltEffect={false} usePositionFixed={true} followMouse={false} flakesMaxActive={32}/>
+
+      {/* <SnowStorm useMeltEffect={false} usePositionFixed={true} followMouse={false} flakesMaxActive={32}/> */}
       </Fragment>
   )}
 }
