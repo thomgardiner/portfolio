@@ -31,7 +31,7 @@ class Portfolio extends Component {
                     </div>
                     <div class="port-item" id="3">
                         <p class="project-title" id="filter-app"> Filter App </p>
-                        <a target="_blank" href="https://thomgardiner.github.io/filter-app/"><img class="port-img" src='./animeeyes.png'></img></a>
+                        <a target="_blank" href="https://github.com/thomgardiner/filter-app"><img class="port-img" src='./animeeyes.png'></img></a>
                         <p class="project-about">Automatically places funny props on user submitted images!</p>
                         <p class="project-madewith"><span class="made-with">Made with:</span></p>
                         <p class="project-madewith-info">JS, JQuery, Node.js, Kairos API</p>

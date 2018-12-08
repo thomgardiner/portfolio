@@ -6,6 +6,7 @@ import Home from './Home.js';
 import SnowStorm from 'react-snowstorm';
 import StarfieldAnimation from 'react-starfield-animation';
 
+
 let skillStyle = {
   fontWeight: "bold",
   // backgroundColor: 'green'
